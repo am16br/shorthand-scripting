@@ -1,0 +1,24 @@
+# <cstdlib>
+# <iomanip>
+# <iostream>
+
+v print(i val){
+	co "Iteration:"<<val e;
+}
+
+i m ( i argc, i *argv[])
+{
+	i x=10;
+	f {
+		print(i);
+		sw (i%2){
+			ca 0:
+				co "even" e;
+				b;
+			ca 1:
+				co "odd" e;
+				b;
+		}
+	}
+	r 0;
+}
